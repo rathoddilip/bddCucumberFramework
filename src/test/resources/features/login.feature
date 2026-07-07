@@ -24,7 +24,7 @@ Feature: Login Page
 
   @smoke @happy-path
   Scenario: Get Started button is enabled after entering a valid mobile number
-    When the user enters mobile number "9876543210"
+    When the user enters mobile number "9999999999"
     Then the Get Started button should be enabled
 
   # ----------------------------------------------------------

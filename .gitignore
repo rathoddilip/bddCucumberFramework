@@ -26,3 +26,6 @@ Thumbs.db
 
 # WebDriverManager local driver cache
 .cache/selenium/
+
+# Local config with real URLs/credentials — use config.properties.example as a template
+src/test/resources/config.properties

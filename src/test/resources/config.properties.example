@@ -10,6 +10,8 @@ headless=false
 # ==============================
 # Application URL
 # ==============================
+# Replace with the actual application login URL before running tests.
+# Can also be overridden at runtime: mvn test -Dbase.url=https://...
 base.url=https://your-app-url/login
 
 # ==============================
