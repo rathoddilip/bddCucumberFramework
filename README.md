@@ -52,12 +52,18 @@ login-bdd-framework/
 
 ## Configuration
 
-Edit `src/test/resources/config.properties`:
+`config.properties` is gitignored and must be created locally. Copy the example file and set your values:
+
+```bash
+cp src/test/resources/config.properties.example src/test/resources/config.properties
+```
+
+Then edit `src/test/resources/config.properties`:
 
 ```properties
 browser=chrome          # chrome | firefox | edge
 headless=false          # true for CI / pipeline runs
-base.url=https://app.fixerra.in
+base.url=https://your-app-url/login
 implicit.wait=10
 explicit.wait=15
 page.load.timeout=30
